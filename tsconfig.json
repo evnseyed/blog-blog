@@ -18,7 +18,9 @@
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "gateway": ["src/gateway/index.ts"],
+      "entity": ["src/entity/index.ts"],
     },
     "lib": [
       "esnext",
